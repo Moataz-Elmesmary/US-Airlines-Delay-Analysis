@@ -47,7 +47,7 @@ The core of the Power BI project's analytical power lies in its data model, whic
 | `Dim_Airports`   | `AirportCode`       | `DelayedFlights` | `Origin`          | One-to-Many | Single                 | **Inactive** | Filters `DelayedFlights` based on the origin airport. Requires `USERELATIONSHIP` in DAX measures for specific "Origin" based calculations (e.g., `Total Delayed Flights by Origin Airport`).                                         |
 | `Dim_Airports`   | `AirportCode`       | `DelayedFlights` | `Dest`            | One-to-Many | Single                 | **Inactive** | Filters `DelayedFlights` based on the destination airport. Requires `USERELATIONSHIP` in DAX measures for specific "Destination" based calculations (e.g., `Total Delayed Flights by Destination Airport`).                         |
 | `Dim_Date`       | `Date`              | `DelayedFlights` | `FlightDate`      | One-to-Many | Single                 | Active     | Filters `DelayedFlights` by various date attributes (Year, Month, Day) using `Dim_Date` columns. This relationship enables Time Intelligence.                                                                                           |
-<img src="https://github.com/user-attachments/assets/bdab8ed7-e606-45d3-b117-3d9eb03bd523" width="700"/>
+<img src="https://github.com/user-attachments/assets/c3de9fe9-15af-49e0-abfe-bca94ede1a1a" width="700"/>
 
 
 ## 📈 Key Performance Indicators (KPIs) & DAX Measures
